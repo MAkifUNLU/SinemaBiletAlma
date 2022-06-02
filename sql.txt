@@ -1,0 +1,1 @@
+Data Source=DESKTOP-4VTM6UE;Initial Catalog=SinemaBiletAlma;Integrated Security=True
