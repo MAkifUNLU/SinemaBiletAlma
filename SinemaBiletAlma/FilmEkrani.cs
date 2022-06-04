@@ -19,7 +19,6 @@ namespace SinemaBiletAlma
 
         private void FilmEkrani_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'sinemaBiletAlmaDataSet1.filmler' table. You can move, or remove it, as needed.
             this.filmlerTableAdapter.Fill(this.sinemaBiletAlmaDataSet1.filmler);
 
         }
@@ -41,6 +40,7 @@ namespace SinemaBiletAlma
 
         private void button2_Click(object sender, EventArgs e)
         {
+            
             int secilen = index;
             Fragman fragman = new Fragman();
             
@@ -90,6 +90,11 @@ namespace SinemaBiletAlma
             BiletAl biletAl = new BiletAl();
             biletAl.filmadi = dataGridView1.Rows[secilen].Cells[1].Value.ToString();
             biletAl.Show();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -314,5 +314,7 @@ namespace SinemaBiletAlma
 
             renktemizle();
         }
+
+       
     }
 }

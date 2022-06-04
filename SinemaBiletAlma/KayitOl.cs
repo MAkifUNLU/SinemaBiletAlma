@@ -67,5 +67,10 @@ namespace SinemaBiletAlma
         {
 
         }
+
+        private void textBoxad_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
